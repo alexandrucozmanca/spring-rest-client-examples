@@ -1,10 +1,11 @@
 
 package ro.alex.learning.springrestclientexamples.domain;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class User {
+public class User implements Serializable {
 
     private String gender;
     private Name name;
@@ -17,6 +18,7 @@ public class User {
     private String language;
     private String currency;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private final static long serialVersionUID = 270727596527329664L;
 
     public String getGender() {
         return gender;
