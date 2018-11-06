@@ -1,5 +1,5 @@
 
-package ro.alex.learning.springrestclientexamples.domain;
+package ro.alex.learning.springrestclientexamples.ro.alex.learning.springframework.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
